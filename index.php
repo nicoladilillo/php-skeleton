@@ -1,14 +1,16 @@
 <?php $title = 'Home'; require('./partials/head.php'); ?>
 
-<p>CSS is <b id="not">not</b> working</p>
-<p>JS is <b id="js-not">not</b> working</p>
+<div class="home">
+  <h1>Recycling in Barletta</h1>
 
-<hr>
+  <form action="/result.php" method="GET">
+    <input type="text" name="object" class="object">
+    <input type="submit" value="Cerca" class="cerca">
+  </form>
 
-<form action="/result.php" method="GET">
-  Oggetto da riciclare
-  <input type="text" name="object">
-  <input type="submit" value="Submit">
-</form>
+  <p>Riciclare è importante, ma non sempre facile.
+    Recycle in Barletta ti aiuta: non sai dove mettere qualcosa?
+    Inseriscil'oggetto in questa pagina, noi ti diremo dove!</p>
+</div>
 
 <?php require('./partials/tail.php'); ?>
