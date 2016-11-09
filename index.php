@@ -1,16 +1,18 @@
 <?php $title = 'Home'; require('./partials/head.php'); ?>
 
 <div class="home">
-  <h1>Recycling in Barletta</h1>
+  <div>
+    <h1>Recycling in Barletta</h1>
 
-  <form action="/result.php" method="GET">
-    <input type="text" name="object" class="object">
-    <input type="submit" value="Cerca" class="cerca">
-  </form>
+    <form action="/result.php" method="GET">
+      <input type="text" name="object" class="object">
+      <input type="submit" value="Cerca" class="cerca">
+    </form>
 
-  <p>Riciclare è importante, ma non sempre facile.
-    Recycle in Barletta ti aiuta: non sai dove mettere qualcosa?
-    Inseriscil'oggetto in questa pagina, noi ti diremo dove!</p>
+    <p>Riciclare è importante, ma non sempre facile.
+      Recycle in Barletta ti aiuta: non sai dove mettere qualcosa?
+      Inseriscil'oggetto in questa pagina, noi ti diremo dove!</p>
+    </div>
 </div>
 
 <?php require('./partials/tail.php'); ?>

@@ -1,25 +1,32 @@
 body {
   background-image: linear-gradient(78deg, #47D1AF 55%, transparent 0%), url("/assets/images/recycle.png");
   background-color: white;
+  margin:0px;
+  padding: 0px;
   color: white;
-  margin: -21px 0 0 0;
 }
 
 .home {
   background-color: #47d1af;
   margin: 0px;
   height: 100vh;
-  width: 70vh;
-  padding: 90px 10px 0 60px;
+  width: 50%;
+}
+
+.home div {
+  padding-left: 70px;
 }
 
 h1 {
-  font-size: +55px;
+  font-size: 70px;
+  margin-bottom: 90px;
 }
 
 form {
-  margin-left: 60px;
-  margin-top: 60px;
+  margin-top: 100px;
+  width: 80%;
+  display: block;
+  margin: auto;
 }
 
 .object {
@@ -30,20 +37,22 @@ form {
   height: 4vh;
   border: 1px solid rgba(0, 0, 0, 0.79);
   border-radius: 10px;
+  padding: 7px;
 }
 
 .cerca{
   display: block;
   margin: auto;
-  padding: 5px 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   border: 1px solid #795548;
   background-color: #78594c;
   color: white;
+  width: 40%;
 }
 
 p {
-  font-size: 25px;
-  margin-right: -130px;
-  margin-top: 65px;
+  font-size: 28px;
+  margin-right: -50px;
+  margin-top: 80px;
 }
