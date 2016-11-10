@@ -20,5 +20,6 @@
       <input type="submit" value="Submit" class="send">
     </div>
   </form>
+</div>
 
 <?php require('./partials/tail.php'); ?>
