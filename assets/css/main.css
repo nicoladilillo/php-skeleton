@@ -138,8 +138,15 @@
     font-size: 45px;
   }
 
-  .home p {
+  p.first {
     font-size: 30px;
+    padding: 10px;
+  }
+
+  p.second{
+    font-size: 20px;
+    margin-bottom: 35px;
+    padding: 20px;
   }
 
   .object {
@@ -152,6 +159,25 @@
   }
 
   .find {
+    color: white;
+    background-color: #47d1af;
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.79);
+    border-radius: 10px;
+    padding: 10px 0 30px 0px;
+    font-size: 20px;
+  }
+
+  .face {
+    display: none;
+  }
+
+  .back {
+    display: none;
+  }
+
+  .send {
     color: white;
     background-color: #47d1af;
     width: 80%;

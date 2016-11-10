@@ -9,7 +9,7 @@
       <input type="submit" value="Cerca" class="find">
     </form>
 
-    <p>Riciclare è importante, ma non sempre facile.
+    <p class="first">Riciclare è importante, ma non sempre facile.
       Recycle in Barletta ti aiuta: non sai dove mettere qualcosa?
       Inseriscil'oggetto in questa pagina, noi ti diremo dove!</p>
     </div>
