@@ -14,7 +14,7 @@
   <p class="second">Ci stiamo informando! Inserisci la tua mail così potremo diti come</p>
 
   <form action="/email.php" method="POST">
-    <input type="text" name="email" class="object">
+    <input type="email" required name="email" class="object">
     <div class="submit">
       <input type="reset" value="indietro" name="back" class="back">
       <input type="submit" value="Submit" class="input">
