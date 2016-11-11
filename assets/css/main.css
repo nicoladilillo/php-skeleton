@@ -44,7 +44,7 @@
     padding: 7px;
   }
 
-  .find {
+  .input {
     display: block;
     margin: auto;
     padding: 10px 15px;
@@ -93,18 +93,12 @@
     display: inline-block;
     padding: 10px 15px;
     border-radius: 5px;
-    color: white;
     width: 40%;
   }
 
   .back {
     background-color: white;
     color: black;
-    border: 1px solid #795548;
-  }
-
-  .send{
-    background-color: #78594c;
     border: 1px solid #795548;
   }
 
@@ -158,7 +152,7 @@
     padding: 5px;
   }
 
-  .find {
+  .input {
     color: white;
     background-color: #47d1af;
     width: 80%;
@@ -176,16 +170,4 @@
   .back {
     display: none;
   }
-
-  .send {
-    color: white;
-    background-color: #47d1af;
-    width: 80%;
-    height: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.79);
-    border-radius: 10px;
-    padding: 10px 0 30px 0px;
-    font-size: 20px;
-  }
-
 }

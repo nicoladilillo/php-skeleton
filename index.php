@@ -6,7 +6,7 @@
 
     <form action="/result.php" method="GET">
       <input type="text" name="object" class="object">
-      <input type="submit" value="Cerca" class="find">
+      <input type="submit" value="Cerca" class="input">
     </form>
 
     <p class="first">Riciclare è importante, ma non sempre facile.

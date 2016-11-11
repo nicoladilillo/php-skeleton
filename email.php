@@ -14,7 +14,7 @@
 
   <form action="/index.php" method="POST">
     <div class="submit">
-      <input type="submit" value="indietro" name="back" class="send">
+      <input type="submit" value="indietro" name="back" class="input
     </div>
   </form>
 </div>

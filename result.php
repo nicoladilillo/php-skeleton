@@ -17,7 +17,7 @@
     <input type="text" name="email" class="object">
     <div class="submit">
       <input type="reset" value="indietro" name="back" class="back">
-      <input type="submit" value="Submit" class="send">
+      <input type="submit" value="Submit" class="input">
     </div>
   </form>
 </div>
