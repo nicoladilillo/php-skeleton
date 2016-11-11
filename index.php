@@ -5,7 +5,7 @@
     <h1>Recycling in Barletta</h1>
 
     <form action="/result.php" method="GET">
-      <input type="text" name="object" class="object">
+      <input type="text"required name="object" class="object">
       <input type="submit" value="Cerca" class="input">
     </form>
 
