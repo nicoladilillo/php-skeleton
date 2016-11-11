@@ -1,13 +1,14 @@
 @media screen and (min-width: 500px) {
   body {
-    /*background-repeat: no-repeat;
-    background-size: 40%;
-    background-position-x: 75%;
-    background-position-y: -10%;*/
+    background-image: 'linear-gradient(-78deg, #47D1AF 55%, transparent 0%), url("/assets/images/recycle.png")';
     background-color: #f6eeeb;
     margin:0px;
     padding: 0px;
     color: white;
+  }
+
+  body.index {
+    background-image: 'linear-gradient(78deg, #47D1AF 55%, transparent 0%), url("/assets/images/recycle.png")'
   }
 
   .home{
@@ -47,7 +48,8 @@
   .input {
     display: block;
     margin: auto;
-    padding: 10px 15px;
+    font-size: 20px;
+    padding: 3px;
     border-radius: 5px;
     border: 1px solid #795548;
     background-color: #78594c;

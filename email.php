@@ -1,5 +1,6 @@
 <?php $title = 'Email'; require('./partials/head.php'); ?>
 
+<body>
 <div class="face">
   <p>:(</p>
 </div>
@@ -14,7 +15,7 @@
 
   <form action="/index.php" method="POST">
     <div class="submit">
-      <input type="submit" value="indietro" name="back" class="input
+      <input type="submit" value="indietro" name="back" class="input">
     </div>
   </form>
 </div>

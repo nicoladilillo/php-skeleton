@@ -1,5 +1,6 @@
 <?php $title = 'Home'; require('./partials/head.php'); ?>
 
+<body class="index">
 <div class="home">
   <div>
     <h1>Recycling in Barletta</h1>

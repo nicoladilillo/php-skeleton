@@ -1,5 +1,6 @@
 <?php $title = 'Result'; require('./partials/head.php'); ?>
 
+<body>
 <div class="face">
   <p>:(</p>
 </div>
